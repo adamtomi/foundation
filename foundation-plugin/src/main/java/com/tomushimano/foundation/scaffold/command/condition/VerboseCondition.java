@@ -5,5 +5,5 @@ import net.kyori.adventure.text.Component;
 
 public interface VerboseCondition extends CommandCondition {
 
-    Component describeFailureCause();
+    Component describeFailure();
 }

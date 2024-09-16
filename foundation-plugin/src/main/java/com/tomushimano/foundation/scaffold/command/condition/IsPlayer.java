@@ -11,7 +11,7 @@ import static net.kyori.adventure.text.format.NamedTextColor.RED;
 public class IsPlayer implements VerboseCondition {
 
     @Override
-    public Component describeFailureCause() {
+    public Component describeFailure() {
         return text("You need to be a player to execute this command.", RED);
     }
 

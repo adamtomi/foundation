@@ -1,0 +1,6 @@
+name: "Foundation"
+version: "${version}"
+api-version: "1.21"
+bootstrapper: "com.tomushimano.foundation.FoundationBootstrap"
+main: "com.tomushimano.foundation.FoundationPlugin"
+authors: [ tomushimano ]

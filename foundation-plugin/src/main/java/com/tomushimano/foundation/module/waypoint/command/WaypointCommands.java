@@ -18,7 +18,7 @@ public class WaypointCommands implements CommandHolder {
 
     @Override
     public void registerCommands(CommandDispatcher dispatcher) {
-        dispatcher.register(this.container.commands());
+        dispatcher.register(this.container);
     }
 
     @CommandDefinition(route = "waypoint|wp set", permission = WAYPOINT_MANAGEMENT, conditions = { IsPlayer.class })
